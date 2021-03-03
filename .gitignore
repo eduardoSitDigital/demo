@@ -6,6 +6,9 @@
 #eclipse
 .settings/
 .project
+.classpath
+bin/
+
 
 # Node artifact files
 node_modules/
