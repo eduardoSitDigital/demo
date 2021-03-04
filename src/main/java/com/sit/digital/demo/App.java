@@ -24,6 +24,8 @@ public class App {
 	public static void main(String[] args) {
 
 		try {
+			
+			//fix
 
 			Reader reader = Files.newBufferedReader(Paths.get(ClassLoader.getSystemResource("csv/input.csv").toURI()));
 
