@@ -25,7 +25,8 @@ public class App {
 
 		try {
 			
-			//fix
+			//fix 1
+			//fix 2
 
 			Reader reader = Files.newBufferedReader(Paths.get(ClassLoader.getSystemResource("csv/input.csv").toURI()));
 
