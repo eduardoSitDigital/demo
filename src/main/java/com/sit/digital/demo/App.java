@@ -15,8 +15,10 @@ import com.opencsv.CSVReader;
 import com.sit.digital.demo.person.Gender;
 import com.sit.digital.demo.person.Person;
 
+/*
+ * programa para leer un archivo .csv y generar un archivo txt
+ */
 public class App {
-
 	private final static Logger LOGGER = Logger.getLogger(App.class);
 
 	public static void main(String[] args) {
@@ -75,12 +77,10 @@ public class App {
 			personList.add(person);
 
 		}
-
 		return personList;
 	}
 
 	private static String clean(String data) {
 		return data.replace("\t", "").replace(" ", "").toUpperCase();
 	}
-
 }

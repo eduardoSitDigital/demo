@@ -1,8 +1,6 @@
 package com.sit.digital.demo.person;
 
 public class Person {
-	
-	
 	private String name;
 	private String firstName;
 	private String secondName;
